@@ -1,0 +1,117 @@
+/**
+Palette: https://coolors.co/699b9a-071211-586350-1d4d53-92b5a5
+VERDIGRIS: #699B9A
+NIGHT: #071211
+EBONY: #586350
+MIDNIGHT GREEN: #1D4D53
+CAMBRIDGE BLUE: #92B5A5
+
+*/
+@font-face{
+    font-family: atlantis;
+    src: url(AtlantisFont.ttf);
+}
+
+body {
+    font-family: atlantis;
+    margin: 0;
+    text-align: center;
+    border: 5px solid #071211; 
+    color: white;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+#hero{
+    background-image: url("images/atlantis.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 250px;
+    color: white;
+    font-weight: bold;  
+    font-size: 40px;
+}
+
+#act-sect{  
+    height: 700px;
+    margin-top: 0px;
+    background-color: #586350;
+    border: 1px solid #071211;
+}
+
+#act-title{
+    padding-top: 10px; 
+    font-size: 30px;
+}
+
+#acts{
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0px 0px 1px #071211;
+}
+
+.act{
+    width: 350px;
+}
+
+.act-desc{
+    padding: 5px 10px;
+    visibility: hidden;
+    opacity: 0;
+    background: #586350;  
+}
+
+.img-act{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+#img-act-1{
+    align-items: start;
+    background-image: url("images/dolphin.png");
+}
+
+#img-act-1:hover .act-desc{
+    visibility: visible;
+    opacity: 80%;
+}
+
+#img-act-2{
+    align-items: center;
+    background-image: url("images/view.png");
+}
+
+#img-act-2:hover .act-desc{
+    visibility: visible;
+    opacity: 80%;
+}
+
+#img-act-3{
+    align-items: end;
+    background-image: url("images/mobile.png");
+}
+
+#img-act-3:hover .act-desc{
+    visibility: visible;
+    opacity: 80%;
+}
+
+#guide-sect{
+    height: 400px;
+    margin-top: 0px;
+    background-color: #92B5A5;
+    border: 1px solid #071211;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#guide-info{
+    width: 400px;
+    padding-left: 20px;
+}
